@@ -2,7 +2,7 @@
     "name": "mal-language",
     "displayName": "MAL Language",
     "description": "Syntax highlighting for everyone's favorite interpreted learning-language",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "malworthy",
     "author": "malworthy",
     "icon": "images/CILogo.png",
@@ -29,18 +29,18 @@
         "grammars": [
             {
                 "language": "mal",
-                "scopeName": "source.lox",
+                "scopeName": "source.mal",
                 "path": "./syntaxes/lox.tmLanguage.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/danman113/lox-language.git"
+        "url": "https://github.com/malworthy/mal-language"
     },
     "keywords": [
-        "lox",
-        "lox-language",
+        "mal",
+        "mal-language",
         "vscode",
         "vscode-extension",
         "vscode-language"
